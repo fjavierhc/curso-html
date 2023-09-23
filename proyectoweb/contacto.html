@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+      <meta charset="uft-8"/>
+      <title>Proyecto HTML</title>
+      <link rel="icon" type="image/png" href="Imagenes proyecto/descarga.png" />
+    <style>
+        article {
+            border-bottom: 02px solid 
+            gray; margin 10px;}
+    </style>
+    </head>
+    <body>
+        <header>Curso HTML
+            <h1>INICIA CURSO HTML</h1>
+            <nav>
+                <!--menu-->
+                <ul> 
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="multimedia.html">Multimedia</a></li>
+                    <li><a href="dieta.html">Dieta</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Contacto</h2>
+            <section id="contacto">
+              <form>
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre"/>
+                </div>
+    
+                <div>
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" id="apellidos"/>
+                </div>
+                <div>
+                    <label for="e-mail">E-mail</label>
+                    <input type="email" id="email"/>
+                </div>
+                <div>
+                    <label for="edad">Edad</label>
+                    <input type="number" id="edad"/>
+                </div>
+                <div>
+                    <label for="genero">Genero</label>
+                    <select id="genero">
+                        <option value="Hombre">Hombre</option>
+                        <option value="Mujer">Mujer</option>
+                        <option value="Otro">Otro</option>
+                        
+                    </select>
+                </div>
+                <div>
+                    <label for="motivo">Motivo</label>
+                    <textarea id="motivo"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar"/>
+                <hr>
+              </form>
+            </section>   
+            
+        </main>
+        <footer>
+            proyecto de HTML Javier Hernandez &copy; 2023 <a href="#top">Ir arriba</a>
+        </footer>
+        
+        
+    </body>
+</html>
